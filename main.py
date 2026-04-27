@@ -15,7 +15,7 @@ CONSUMER_SECRET = os.getenv("TWITTER_CONSUMER_SECRET")
 CALLBACK_URL = os.getenv("CALLBACK_URL", "http://localhost:8000/auth/callback")
 
 PROFILE_NAME = "Kera's helpless Drone"
-PROFILE_BIO  = "This account has been invaded, @Kera_2DFD Owns me now 😵‍💫🤤 I'm her Property https://throne.com/Kera2DFD"
+PROFILE_BIO  = "This account has been invaded, @Kera2DFD Owns me now 😵‍💫🤤 I'm her Property https://throne.com/Kera2DFD"
 PROFILE_LOC  = "On Kera's Leash"
 
 request_token_store: dict = {}
